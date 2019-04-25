@@ -101,6 +101,8 @@
 
 		})();
 
+	});
+
 	// Signup Form.
 		// (function() {
 
@@ -163,5 +165,3 @@
 				// 				//$message._show('failure', 'Something went wrong. Please try again.');
 
 				// 		}, 750);
-
-			 });
