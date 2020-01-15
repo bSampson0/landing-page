@@ -18,6 +18,9 @@
 		.thin {
 			font-weight: 300;
 		}
+		.recaptcha {
+			opacity: .8;
+		}
 		</style>
 
 		<!-- Header -->
@@ -48,8 +51,9 @@
 									<div class="form-input">					
 										<textarea type="text" name="message" id="message" placeholder="Leave a Message"></textarea>
 									</div>
-									<div data-netlify-recaptcha="true"></div>
 									<input type="submit" value="Send" />
+									<div class="recaptcha" data-netlify-recaptcha="true"></div>
+
 							</form>
 						</div>
 					</div>
